@@ -1,0 +1,61 @@
+/*RESET*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*BOX GERAL*/
+.container{
+    float: left;
+    width: 100%;
+}
+
+.content{
+    display: block;
+    margin:0 auto;
+    padding: 40px 0;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.clear{
+    clear: both;
+}
+
+.fontzero{
+  font-size:0;
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+.main_header{
+  box-shadow:3px 3px 2px #ccc;
+  font-size: 0.875em;
+}
+
+.main_header .content{
+    padding: 20px 0;
+}
+
+.main_logo{
+    float: left;
+}
+
+.main_menu{
+  float: right;
+  margin: 0;
+}
+
+.main_menu li{
+  display: inline-block;
+
+}
+
+.main_menu a{
+  display: inline-block;
+    padding: 30px 15px;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+}
