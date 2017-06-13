@@ -21,12 +21,9 @@ if (isset($_POST['btn_create'])) {
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <script type="text/javascript" src="js/jquery.js"> </script>
-  <script type="text/javascript" src="js/scripts.js"> </script>
+
   <body>
       <?php include 'include/header.php'; ?>
-
-
 
       <main class="container">
         <div class="content block_c">
@@ -56,111 +53,13 @@ if (isset($_POST['btn_create'])) {
 
               <input class="btn btn-primary" type="submit" name="btn_create" value="Create">
             </form>
+
+            
           </article>
         </div>
-
-
-        <div class="content block_r">
-          <article class="main_form">
-            <form class="form_create" action="index.php" method="post">
-              <div class="form-group">
-                <label>Marca</label>
-                <input class="form-control" type="text" name="marca" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Modelo</label>
-                <input class="form-control" type="text" name="modelo" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Placa</label>
-                <input class="form-control" type="text" name="placa" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Ano</label>
-                <input class="form-control" type="text" name="ano" value="">
-              </div>
-
-              <input class="btn btn-primary" type="submit" name="btn_create" value="Create">
-            </form>
-          </article>
-        </div>
-
-
-        <div class="content block_u">
-          <article class="main_welcome">
-            <header>
-              <h1>AppCar - Welcome</h1>
-              <p>Create a car</p>
-            </header>
-          </article>
-          <!-- MAIN WELCOME -->
-
-          <article class="main_form">
-            <form class="form_create" action="index.php" method="post">
-              <div class="form-group">
-                <label>Marca</label>
-                <input class="form-control" type="text" name="marca" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Modelo</label>
-                <input class="form-control" type="text" name="modelo" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Placa</label>
-                <input class="form-control" type="text" name="placa" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Ano</label>
-                <input class="form-control" type="text" name="ano" value="">
-              </div>
-
-              <input class="btn btn-primary" type="submit" name="btn_create" value="Create">
-            </form>
-          </article>
-        </div>
-
-
-        <div class="content block_d">
-          <article class="main_welcome">
-            <header>
-              <h1>AppCar - Welcome</h1>
-              <p>Create a car</p>
-            </header>
-          </article>
-          <!-- MAIN WELCOME -->
-
-          <article class="main_form">
-            <form class="form_create" action="index.php" method="post">
-              <div class="form-group">
-                <label>Marca</label>
-                <input class="form-control" type="text" name="marca" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Modelo</label>
-                <input class="form-control" type="text" name="modelo" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Placa</label>
-                <input class="form-control" type="text" name="placa" value="">
-              </div>
-
-              <div class="form-group">
-                <label>Ano</label>
-                <input class="form-control" type="text" name="ano" value="">
-              </div>
-
-              <input class="btn btn-primary" type="submit" name="btn_create" value="Create">
-            </form>
-          </article>
-        </div>
+      </div>
       </main>
+      <script src="js/jquery.js"> </script>
+      <script src="js/scripts.js"> </script>
   </body>
 </html>
