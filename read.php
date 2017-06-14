@@ -14,6 +14,7 @@ uptCar();
     <title></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortchut icon" href="img/favicon.png"/>
   </head>
   <body>
     <?php include 'include/header.php'; ?>

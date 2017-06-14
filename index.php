@@ -54,7 +54,7 @@ if (isset($_POST['btn_create'])) {
               <input class="btn btn-primary" type="submit" name="btn_create" value="Create">
             </form>
 
-            
+
           </article>
         </div>
       </div>

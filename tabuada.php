@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <title>PS - Taboada em PHP</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortchut icon" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
+    <?php include 'include/header.php'; ?>
 <?php
 
 for ($c=1; $c <= 5 ; $c++) {
@@ -20,7 +23,10 @@ for ($c=1; $c <= 5 ; $c++) {
     }
 
 
+
  ?>
 
+
+  <center><h1><a href="index.php">VOLTAR</a></h1></center>
   </body>
 </html>
