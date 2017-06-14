@@ -2,10 +2,10 @@
 
 function createCar(){
   global $connection;
-  $marca = $_POST['marca'];
-  $modelo = $_POST['modelo'];
-  $placa = $_POST['placa'];
-  $ano = $_POST['ano'];
+  $marca = trim($_POST['marca']);
+  $modelo = trim($_POST['modelo']);
+  $placa = trim($_POST['placa']);
+  $ano = trim($_POST['ano']);
 
   $query = "INSERT INTO carros(marca, modelo, placa, ano) VALUES ('$marca', '$modelo', '$placa', '$ano')";
 
