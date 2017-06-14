@@ -12,12 +12,12 @@
       sort($numbers);
 
       foreach (array_reverse($numbers) as $number) {
-        echo $number
+        echo $number . " - ";
       }
   }
     ?>
 
-    Numeros na ordem decrescente:
+    <h1>Numeros na ordem decrescente</h1>
     <?php misturar(); ?>
   </body>
 </html>
