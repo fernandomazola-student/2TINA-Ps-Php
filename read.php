@@ -5,6 +5,7 @@ if(isset($_GET['delete'])){
   delCar();
   echo $_SESSION['msg'];
 }
+uptCar();
  ?>
 <!DOCTYPE html>
 <html>
@@ -48,6 +49,8 @@ if(isset($_GET['delete'])){
             $car_id = $_GET['alterar'];
             altCar();
         }
+
+
 
          ?>
     </table>

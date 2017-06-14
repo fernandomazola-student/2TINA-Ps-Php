@@ -6,7 +6,7 @@
     <ul class="main_menu">
       <li><a href="index.php">CREATE</a></li>
       <li><a href="read.php">READ</a></li>
-      <li><a href="">UPDATE</a></li>
+      <!-- <li><a href="">UPDATE</a></li> -->
       <!-- <li><a href="">DELETE</a></li> -->
     </ul>
     <div class="clear"></div>
