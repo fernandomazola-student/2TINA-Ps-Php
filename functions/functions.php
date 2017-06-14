@@ -104,5 +104,20 @@ function altCar(){
   }
 }
 
+function valCar(){
+  $marca = trim($_POST['marca']);
+  $modelo = trim($_POST['modelo']);
+  $placa = trim($_POST['placa']);
+  $ano = trim($_POST['ano']);
+  if($marca == "" || empty($marca)){
+      echo '<p class="alert alert-danger">Campo vázio<p>';
+    }else if(strlen($marca) > 10){
+        echo '<p class="alert alert-danger">Nome da marca muito grande<p>';
+    }else{
+        createCar();
+    }
+
+}
+
 
  ?>

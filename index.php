@@ -3,7 +3,7 @@
 
 <?php
 if (isset($_POST['btn_create'])) {
-  createCar();
+  valCar();
 }
 ?>
 

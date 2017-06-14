@@ -18,11 +18,10 @@ uptCar();
   </head>
   <body>
     <?php include 'include/header.php'; ?>
-    <p>
-      Read Cars
-    </p>
+
     <table class="table table-bordered">
       <thead>
+      
         <tr>
           <th>Id</th>
           <th>Marca</th>
